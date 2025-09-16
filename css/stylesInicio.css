@@ -1,4 +1,4 @@
-/* === Variables de colores === */
+
 :root {
     --black: #0a0a0a;
     --dark-gray: #1a1a1a;
@@ -10,14 +10,13 @@
     --primary-dark: #00cc6d;
 }
 
-/* === Estilos generales === */
+
 body {
     background-color: var(--black);
     color: var(--text-gray);
     font-family: 'Segoe UI', sans-serif;
 }
 
-/* === Header y Navegación === */
 .navbar {
     background-color: var(--dark-gray) !important;
     border-bottom: 3px solid var(--primary);
@@ -52,7 +51,7 @@ body {
     color: var(--black) !important;
 }
 
-/* === Sección Hero === */
+
 #SomosCodeHub {
     position: relative;
     height: 70vh;
@@ -80,7 +79,7 @@ body {
     z-index: 1;
 }
 
-/* === Sección Home === */
+
 #slogan p {
     font-size: 1.5rem;
     color: var(--text-gray);
@@ -119,7 +118,7 @@ button.valores:hover {
     box-shadow: 0 0 25px rgba(0, 255, 136, 0.6);
 }
 
-/* === Formulario de Contacto === */
+
 #Contact {
     background-color: var(--dark-gray);
     padding: 3rem;
@@ -163,14 +162,12 @@ button.valores:hover {
     transform: translateY(-2px);
 }
 
-/* === Mapa === */
 #Contact iframe {
     border-radius: 10px;
     border: 2px solid var(--primary);
     box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
 }
 
-/* === Footer === */
 footer {
     background-color: var(--dark-gray);
     border-top: 3px solid var(--primary);
@@ -192,7 +189,6 @@ footer a:hover {
     transform: scale(1.1);
 }
 
-/* === Responsive === */
 @media (max-width: 768px) {
     #SomosCodeHub {
         height: 50vh;
